@@ -1,6 +1,7 @@
 /* eslint-disable react-hooks/refs */
 "use client";
 
+import UserList from "@/components/userList";
 import { useHasHydrated } from "@/hooks/use-has-hydrated";
 import { useAppStore } from "@/store/store-provider";
 
@@ -302,6 +303,9 @@ export default function Home() {
             </li>
           </ul>
         </div>
+      </div>
+      <div className="w-full mt-6 flex justify-center">
+        <UserList />
       </div>
     </main>
   );

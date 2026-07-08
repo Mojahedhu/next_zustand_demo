@@ -1,0 +1,123 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "First Post"
+    },
+    {
+      "id": "2",
+      "title": "Second Post"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Alice Smith",
+      "email": "alice.smith@enterprise.com",
+      "role": "Senior Frontend Engineer",
+      "department": "Engineering",
+      "status": "Active",
+      "createdAt": "2024-01-10"
+    },
+    {
+      "id": "2",
+      "name": "Bob Johnson",
+      "email": "bob.johnson@enterprise.com",
+      "role": "Lead Product Manager",
+      "department": "Product",
+      "status": "Active",
+      "createdAt": "2023-05-14"
+    },
+    {
+      "id": "3",
+      "name": "Charlie Brown",
+      "email": "charlie.brown@enterprise.com",
+      "role": "Principal Designer",
+      "department": "Design",
+      "status": "Active",
+      "createdAt": "2022-11-01"
+    },
+    {
+      "id": "4",
+      "name": "David Miller",
+      "email": "david.miller@enterprise.com",
+      "role": "DevOps Lead",
+      "department": "Operations",
+      "status": "Inactive",
+      "createdAt": "2024-02-18"
+    },
+    {
+      "id": "5",
+      "name": "Eva Green",
+      "email": "eva.green@enterprise.com",
+      "role": "Security Architect",
+      "department": "Security",
+      "status": "Active",
+      "createdAt": "2023-09-05"
+    },
+    {
+      "id": "6",
+      "name": "Frank Wright",
+      "email": "frank.wright@enterprise.com",
+      "role": "QA Engineer",
+      "department": "Engineering",
+      "status": "Active",
+      "createdAt": "2024-03-22"
+    },
+    {
+      "id": "7",
+      "name": "Grace Hopper",
+      "email": "grace.hopper@enterprise.com",
+      "role": "Senior Data Scientist",
+      "department": "Engineering",
+      "status": "Active",
+      "createdAt": "2021-06-18"
+    },
+    {
+      "id": "8",
+      "name": "Henry Adams",
+      "email": "henry.adams@enterprise.com",
+      "role": "HR Specialist",
+      "department": "People",
+      "status": "Active",
+      "createdAt": "2024-04-01"
+    },
+    {
+      "id": "9",
+      "name": "Isabella Ross",
+      "email": "isabella.ross@enterprise.com",
+      "role": "Cloud Administrator",
+      "department": "Operations",
+      "status": "Suspended",
+      "createdAt": "2023-07-29"
+    },
+    {
+      "id": "10",
+      "name": "Jack Martinez",
+      "email": "jack.martinez@enterprise.com",
+      "role": "Technical Writer",
+      "department": "Product",
+      "status": "Active",
+      "createdAt": "2024-05-15"
+    },
+    {
+      "id": "11",
+      "name": "Karen Taylor",
+      "email": "karen.taylor@enterprise.com",
+      "role": "Backend Engineer",
+      "department": "Engineering",
+      "status": "Active",
+      "createdAt": "2024-06-01"
+    },
+    {
+      "id": "12",
+      "name": "Leo Thomas",
+      "email": "leo.thomas@enterprise.com",
+      "role": "Product Marketer",
+      "department": "Marketing",
+      "status": "Inactive",
+      "createdAt": "2023-12-10"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
