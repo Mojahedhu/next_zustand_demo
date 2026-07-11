@@ -106,10 +106,10 @@ const UserList = () => {
   );
 
   const { mutate, isPending } = useMutation<
-    User,
-    Error,
-    NewUser,
-    { previousUsers: UserResponse | undefined }
+    User, // Server response type on success
+    Error, // Error type
+    NewUser, // Mutation variables argument
+    { previousUsers: UserResponse | undefined } // Context type (snapshot)
   >({
     mutationFn: createUser,
     onSuccess: () => {

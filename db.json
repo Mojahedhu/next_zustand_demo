@@ -119,5 +119,152 @@
       "createdAt": "2023-12-10"
     }
   ],
+  "todos": [
+    {
+      "title": "Config Next.js Suztand for state managment",
+      "completed": true,
+      "id": "FTaAGplMeTk"
+    },
+    {
+      "title": "Config Next.js TanStack query",
+      "completed": false,
+      "id": "Y1ByBXl7Ypc"
+    },
+    {
+      "title": "Config mutation update",
+      "completed": false,
+      "id": "22WZ93BEk4c"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Apex Pro Mechanical Keyboard",
+      "category": "Accessories",
+      "price": 189.99,
+      "description": "Magnetic switches with customizable actuation, RGB illumination, and aluminum build.",
+      "image": "⌨️"
+    },
+    {
+      "id": "2",
+      "name": "UltraWide Curved Monitor 38\"",
+      "category": "Displays",
+      "price": 849.99,
+      "description": "WQHD resolution, 144Hz refresh rate, HDR400, and USB-C power delivery.",
+      "image": "🖥️"
+    },
+    {
+      "id": "3",
+      "name": "ErgoSoft Office Chair",
+      "category": "Furniture",
+      "price": 349.99,
+      "description": "Adjustable lumbar support, 3D armrests, and breathable mesh backrest.",
+      "image": "🪑"
+    },
+    {
+      "id": "4",
+      "name": "QuietTune ANC Headphones",
+      "category": "Audio",
+      "price": 279.99,
+      "description": "Hybrid active noise canceling, high-fidelity sound, and 40-hour battery life.",
+      "image": "🎧"
+    },
+    {
+      "id": "5",
+      "name": "OmniCharge 12-in-1 USB Hub",
+      "category": "Accessories",
+      "price": 79.99,
+      "description": "Dual HDMI output, SD card reader, gigabit ethernet, and 100W pass-through charging.",
+      "image": "🔌"
+    },
+    {
+      "id": "6",
+      "name": "Creator Pro 4K Webcam",
+      "category": "Displays",
+      "price": 149.99,
+      "description": "Auto-framing tracking, HDR low-light adjustment, and built-in noise-reducing mic.",
+      "image": "📷"
+    },
+    {
+      "id": "7",
+      "name": "VocalCore XLR Studio Mic",
+      "category": "Audio",
+      "price": 199.99,
+      "description": "Cardioid polar pattern, gold-sputtered diaphragm, and warm broadcast sound profile.",
+      "image": "🎙️"
+    },
+    {
+      "id": "8",
+      "name": "Lumos RGB Desktop Light Bar",
+      "category": "Accessories",
+      "price": 59.99,
+      "description": "Asymmetric screen glare-reducing lens, color temperature adjustment, and smart control.",
+      "image": "💡"
+    },
+    {
+      "id": "9",
+      "name": "MotionDesk Electric Standing Desk",
+      "category": "Furniture",
+      "price": 499.99,
+      "description": "Dual-motor lift system, 4 programmable height presets, and heavy-duty steel frame.",
+      "image": "🪵"
+    },
+    {
+      "id": "10",
+      "name": "SonicPulse Studio Monitors",
+      "category": "Audio",
+      "price": 299.99,
+      "description": "5-inch bi-amplified active speakers, room acoustic controls, and balanced TRS inputs.",
+      "image": "🔊"
+    },
+    {
+      "id": "11",
+      "name": "MagMouse Wireless Ergonomic Mouse",
+      "category": "Accessories",
+      "price": 99.99,
+      "description": "Precision electromagnetic scrolling wheel, thumb controls, and multi-device connection.",
+      "image": "🖱️"
+    },
+    {
+      "id": "12",
+      "name": "ScreenPad Pro 16\" Portable Monitor",
+      "category": "Displays",
+      "price": 229.99,
+      "description": "IPS panel, Full HD, ultra-slim design, single USB-C cable for data and power.",
+      "image": "📱"
+    },
+    {
+      "id": "13",
+      "name": "Acoustic Shield Wall Panels (6-Pack)",
+      "category": "Furniture",
+      "price": 89.99,
+      "description": "High-density sound absorbing felt tiles, self-adhesive backing, geometric design.",
+      "image": "🧱"
+    },
+    {
+      "id": "14",
+      "name": "ProTrack Wireless Trackpad",
+      "category": "Accessories",
+      "price": 129.99,
+      "description": "Force-touch sensitive glass surface, gesture controls, and rechargeable battery.",
+      "image": "🖲️"
+    },
+    {
+      "id": "15",
+      "name": "TuneBuds Pro Wireless Earbuds",
+      "category": "Audio",
+      "price": 119.99,
+      "description": "IPX7 waterproof rating, touch gesture controls, wireless charging case.",
+      "image": "👂"
+    },
+    {
+      "id": "16",
+      "name": "DeskShield Felt Desk Mat",
+      "category": "Accessories",
+      "price": 29.99,
+      "description": "Natural wool felt, anti-slip rubberized bottom, protects wood desktop surface.",
+      "image": "🗺️"
+    }
+  ],
   "$schema": "./node_modules/json-server/schema.json"
 }
