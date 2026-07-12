@@ -40,15 +40,21 @@ export default function RootLayout({
             <header className="border-b border-zinc-800 bg-zinc-950/80 backdrop-blur-md sticky top-0 z-50">
               <div className="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
                 <span className="text-base font-bold bg-linear-to-r from-violet-400 to-emerald-400 bg-clip-text text-transparent">
-                  Server-State Sandbox
+                  <Link href="/">Server-State Sandbox</Link>
                 </span>
 
                 <nav className="flex items-center gap-6">
                   <Link
-                    href="/"
+                    href="/slices"
                     className="text-xs font-bold uppercase tracking-wider text-zinc-400 hover:text-zinc-100 transition-colors"
                   >
                     Directory & Slices
+                  </Link>
+                  <Link
+                    href="/users"
+                    className="text-xs font-bold uppercase tracking-wider text-zinc-400 hover:text-zinc-100 transition-colors"
+                  >
+                    Users (Directory)
                   </Link>
                   <Link
                     href="/todos"
